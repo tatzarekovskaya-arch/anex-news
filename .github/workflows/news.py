@@ -5,7 +5,7 @@ import os
 from datetime import datetime
 
 TOKEN = os.getenv('TELEGRAM_TOKEN')
-CHAT_ID = os.getenv('TELEGRAM_CHAT_ID') or "@твой_канал"   # замени если нужно
+CHAT_ID = os.getenv('TELEGRAM_CHAT_ID') or "@proturry1"   # замени если нужно
 
 headers = {'User-Agent': 'Mozilla/5.0'}
 
